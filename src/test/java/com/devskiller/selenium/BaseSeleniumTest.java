@@ -40,7 +40,7 @@ public class BaseSeleniumTest {
 
   private void createWebDriver() {
     ChromeOptions options = new ChromeOptions();
-    options.addArguments("--headless");
+    options.addArguments("--chrome");
     options.addArguments("--disable-gpu");
     options.addArguments("--no-sandbox");
     options.addArguments("--window-size=1920,1200");
